@@ -1,0 +1,125 @@
+<!doctype html>
+
+<title>CodeMirror: Language Modes</title>
+<meta charset="utf-8"/>
+<link rel=stylesheet href="../doc/docs.css">
+
+<div id=nav>
+  <a href="http://codemirror.net"><h1>CodeMirror</h1><img id=logo src="../doc/logo.png"></a>
+
+  <ul>
+    <li><a href="../index.aspx">Home</a>
+    <li><a href="../doc/manual.html">Manual</a>
+    <li><a href="https://github.com/codemirror/codemirror">Code</a>
+  </ul>
+  <ul>
+    <li><a class=active href="#">Language modes</a>
+  </ul>
+</div>
+
+<article>
+
+<h2>Language modes</h2>
+
+<p>This is a list of every mode in the distribution. Each mode lives
+in a subdirectory of the <code>mode/</code> directory, and typically
+defines a single JavaScript file that implements the mode. Loading
+such file will make the language available to CodeMirror, through
+the <a href="manual.html#option_mode"><code>mode</code></a>
+option.</p>
+
+<div style="-webkit-columns: 100px 2; -moz-columns: 100px 2; columns: 100px 2;">
+    <ul style="margin-top: 0">
+      <li><a href="apl/index.aspx">APL</a></li>
+      <li><a href="asterisk/index.aspx">Asterisk dialplan</a></li>
+      <li><a href="clike/index.aspx">C, C++, C#</a></li>
+      <li><a href="clojure/index.aspx">Clojure</a></li>
+      <li><a href="cobol/index.aspx">COBOL</a></li>
+      <li><a href="coffeescript/index.aspx">CoffeeScript</a></li>
+      <li><a href="commonlisp/index.aspx">Common Lisp</a></li>
+      <li><a href="css/index.aspx">CSS</a></li>
+      <li><a href="cypher/index.aspx">Cypher</a></li>
+      <li><a href="python/index.aspx">Cython</a></li>
+      <li><a href="d/index.aspx">D</a></li>
+      <li><a href="django/index.aspx">Django</a> (templating language)</li>
+      <li><a href="diff/index.aspx">diff</a></li>
+      <li><a href="dtd/index.aspx">DTD</a></li>
+      <li><a href="dylan/index.aspx">Dylan</a></li>
+      <li><a href="ecl/index.aspx">ECL</a></li>
+      <li><a href="eiffel/index.aspx">Eiffel</a></li>
+      <li><a href="erlang/index.aspx">Erlang</a></li>
+      <li><a href="fortran/index.aspx">Fortran</a></li>
+      <li><a href="mllike/index.aspx">F#</a></li>
+      <li><a href="gas/index.aspx">Gas</a> (AT&amp;T-style assembly)</li>
+      <li><a href="gherkin/index.aspx">Gherkin</a></li>
+      <li><a href="go/index.aspx">Go</a></li>
+      <li><a href="groovy/index.aspx">Groovy</a></li>
+      <li><a href="haml/index.aspx">HAML</a></li>
+      <li><a href="haskell/index.aspx">Haskell</a></li>
+      <li><a href="haxe/index.aspx">Haxe</a></li>
+      <li><a href="htmlembedded/index.aspx">HTML embedded scripts</a></li>
+      <li><a href="htmlmixed/index.aspx">HTML mixed-mode</a></li>
+      <li><a href="http/index.aspx">HTTP</a></li>
+      <li><a href="clike/index.aspx">Java</a></li>
+      <li><a href="jade/index.aspx">Jade</a></li>
+      <li><a href="javascript/index.aspx">JavaScript</a></li>
+      <li><a href="jinja2/index.aspx">Jinja2</a></li>
+      <li><a href="julia/index.aspx">Julia</a></li>
+      <li><a href="kotlin/index.aspx">Kotlin</a></li>
+      <li><a href="css/less.html">LESS</a></li>
+      <li><a href="livescript/index.aspx">LiveScript</a></li>
+      <li><a href="lua/index.aspx">Lua</a></li>
+      <li><a href="markdown/index.aspx">Markdown</a> (<a href="gfm/index.aspx">GitHub-flavour</a>)</li>
+      <li><a href="mirc/index.aspx">mIRC</a></li>
+      <li><a href="modelica/index.aspx">Modelica</a></li>
+      <li><a href="nginx/index.aspx">Nginx</a></li>
+      <li><a href="ntriples/index.aspx">NTriples</a></li>
+      <li><a href="mllike/index.aspx">OCaml</a></li>
+      <li><a href="octave/index.aspx">Octave</a> (MATLAB)</li>
+      <li><a href="pascal/index.aspx">Pascal</a></li>
+      <li><a href="pegjs/index.aspx">PEG.js</a></li>
+      <li><a href="perl/index.aspx">Perl</a></li>
+      <li><a href="php/index.aspx">PHP</a></li>
+      <li><a href="pig/index.aspx">Pig Latin</a></li>
+      <li><a href="properties/index.aspx">Properties files</a></li>
+      <li><a href="puppet/index.aspx">Puppet</a></li>
+      <li><a href="python/index.aspx">Python</a></li>
+      <li><a href="q/index.aspx">Q</a></li>
+      <li><a href="r/index.aspx">R</a></li>
+      <li><a href="rpm/index.aspx">RPM</a></li>
+      <li><a href="rst/index.aspx">reStructuredText</a></li>
+      <li><a href="ruby/index.aspx">Ruby</a></li>
+      <li><a href="rust/index.aspx">Rust</a></li>
+      <li><a href="sass/index.aspx">Sass</a></li>
+      <li><a href="clike/scala.html">Scala</a></li>
+      <li><a href="scheme/index.aspx">Scheme</a></li>
+      <li><a href="css/scss.html">SCSS</a></li>
+      <li><a href="shell/index.aspx">Shell</a></li>
+      <li><a href="sieve/index.aspx">Sieve</a></li>
+      <li><a href="slim/index.aspx">Slim</a></li>
+      <li><a href="smalltalk/index.aspx">Smalltalk</a></li>
+      <li><a href="smarty/index.aspx">Smarty</a></li>
+      <li><a href="smartymixed/index.aspx">Smarty/HTML mixed</a></li>
+      <li><a href="solr/index.aspx">Solr</a></li>
+      <li><a href="sql/index.aspx">SQL</a> (several dialects)</li>
+      <li><a href="sparql/index.aspx">SPARQL</a></li>
+      <li><a href="stex/index.aspx">sTeX, LaTeX</a></li>
+      <li><a href="tcl/index.aspx">Tcl</a></li>
+      <li><a href="textile/index.aspx">Textile</a></li>
+      <li><a href="tiddlywiki/index.aspx">Tiddlywiki</a></li>
+      <li><a href="tiki/index.aspx">Tiki wiki</a></li>
+      <li><a href="toml/index.aspx">TOML</a></li>
+      <li><a href="tornado/index.aspx">Tornado</a> (templating language)</li>
+      <li><a href="turtle/index.aspx">Turtle</a></li>
+      <li><a href="vb/index.aspx">VB.NET</a></li>
+      <li><a href="vbscript/index.aspx">VBScript</a></li>
+      <li><a href="velocity/index.aspx">Velocity</a></li>
+      <li><a href="verilog/index.aspx">Verilog/SystemVerilog</a></li>
+      <li><a href="xml/index.aspx">XML/HTML</a></li>
+      <li><a href="xquery/index.aspx">XQuery</a></li>
+      <li><a href="yaml/index.aspx">YAML</a></li>
+      <li><a href="z80/index.aspx">Z80</a></li>
+    </ul>
+  </div>
+
+</article>

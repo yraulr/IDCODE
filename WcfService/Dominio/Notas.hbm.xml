@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="WcfService"
+                   namespace="WcfService.Dominio"
+                   default-lazy="false">
+  <class name="Nota" table="tb_nota">
+    <id name="cd_nota" column="cd_nota">
+      <generator class="increment" />
+    </id>
+    <property name="qt_nota" column="qt_nota" />
+    <property name="ds_curso" column="ds_curso" />
+    <property name="cd_alumno" column="cd_alumno" />
+  </class>
+</hibernate-mapping>
